@@ -63,12 +63,12 @@ def generate_keys():
     d = mod_inverse(e, phi)
     return ((e, n), (d, n))
 
-def encrypt(message, public_key):
+def encrypt_res(message, public_key):
     
     e, n = public_key
     return [pow(ord(char), e, n) for char in message]
 
-def decrypt(ciphertext, private_key):
+def decrypt_res(ciphertext, private_key):
     
     d, n = private_key
     return ''.join([chr(pow(char, d, n)) for char in ciphertext])
@@ -81,11 +81,11 @@ def main():
     message = input("Enter the message to encrypt: ")
 
     
-    encrypted_message = encrypt(message, public_key)
+    encrypted_message = encrypt_res(message, public_key)
     print("Encrypted message:", encrypted_message)
 
     
-    decrypted_message = decrypt(encrypted_message, private_key)
+    decrypted_message = decrypt_res(encrypted_message, private_key)
     print("Decrypted message:", decrypted_message)
 
 if __name__ == "__main__":

@@ -1,4 +1,4 @@
-def caesar_cipher(text, shift):
+def encrypt_caeser(text, shift):
     result = ""
     for char in text:
         if char.isalpha():
@@ -23,10 +23,10 @@ def caesar_cipher(text, shift):
 # Example usage
 text=input("Enter the word: ")
 shift=int(input("Enter key: "))
-ciphertext = caesar_cipher(text, shift)
+ciphertext = encrypt_caeser(text, shift)
 print(ciphertext)
 
-def caesar_decrypt(ciphertext, shift):
+def decrypt_ceaser(ciphertext, shift):
     decrypted_text = ""
     for char in ciphertext:
         if char.isalpha():
@@ -46,6 +46,6 @@ def caesar_decrypt(ciphertext, shift):
 
 # Example usage
 ciphertext = input("Enter decryption word:")
-plaintext = caesar_decrypt(ciphertext, shift)
+plaintext = decrypt_ceaser(ciphertext, shift)
 print(plaintext)  # Output: HELLO, WORLD!
 
