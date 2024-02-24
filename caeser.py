@@ -20,17 +20,11 @@ def encrypt_caeser(text, shift):
             result += char
     return result
 
-# Example usage
-text=input("Enter the word: ")
-shift=int(input("Enter key: "))
-ciphertext = encrypt_caeser(text, shift)
-print(ciphertext)
-
-def decrypt_ceaser(ciphertext, shift):
+def decrypt_caesar(ciphertext, shift):
     decrypted_text = ""
     for char in ciphertext:
         if char.isalpha():
-            # Shift the character by the specified amount
+            # Shift the character back by the specified amount
             shifted = ord(char) - shift
             if char.islower():
                 if shifted < ord('a'):
@@ -43,9 +37,3 @@ def decrypt_ceaser(ciphertext, shift):
             # Leave non-alphabetic characters unchanged
             decrypted_text += char
     return decrypted_text
-
-# Example usage
-ciphertext = input("Enter decryption word:")
-plaintext = decrypt_ceaser(ciphertext, shift)
-print(plaintext)  # Output: HELLO, WORLD!
-
