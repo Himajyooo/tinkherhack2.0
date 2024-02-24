@@ -17,9 +17,10 @@ def main():
         if encryption_method == "AES":
             # Call AES encryption function
             if st.button("Encrypt"):
-                encrypted_text = encrypt_aes(text_input)
+                encrypted_text,test = encrypt_aes(text_input)
                 st.success("Text Encrypted Successfully!")
                 st.write("Encrypted Text:", encrypted_text)
+                st.write("Generated key:",test)
         elif encryption_method == "Caesar":
             # Call Caesar encryption function
             shift = st.number_input("Enter the key:",step=1)
