@@ -28,3 +28,4 @@ print("Encrypted ciphertext:", ciphertext.hex())
 decrypted_message = decrypt_message(ciphertext, key, iv)
 
 print("Decrypted message:", decrypted_message.decode())
+print('key=',key)
