@@ -12,21 +12,23 @@ def main():
     # Dropdown box to select encryption method
     encryption_method = st.selectbox("Select Encryption Method", ["AES", "Caesar"])
 
-    if st.button("Encrypt"):
-        if text_input:
-            if encryption_method == "AES":
-                # Call AES encryption function
+
+    if text_input:
+        if encryption_method == "AES":
+            # Call AES encryption function
+            if st.button("Encrypt"):
                 encrypted_text = encrypt_aes(text_input)
                 st.success("Text Encrypted Successfully!")
                 st.write("Encrypted Text:", encrypted_text)
-            elif encryption_method == "Caesar":
-                # Call Caesar encryption function
-                shift = st.number_input("Enter the key:", value=3, step=1)
+        elif encryption_method == "Caesar":
+            # Call Caesar encryption function
+            shift = st.number_input("Enter the key:",step=1)
+            if st.button("Encrypt"):
                 encrypted_text = encrypt_caeser(text_input, shift)
                 st.success("Text Encrypted Successfully!")
                 st.write("Encrypted Text:", encrypted_text)
-            else:
-                st.error("Encryption method not supported yet.")
+        else:
+            st.error("Encryption method not supported yet.")
 
 if __name__ == "__main__":
     main()
