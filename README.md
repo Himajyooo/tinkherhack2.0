@@ -27,13 +27,13 @@ It is a variant of caeser cipher method where both consonents and vowels are sep
 The application provides clear outputs for encrypted and decrypted text, making it easy for users to understand the results.
 
 ## How to Use
-### Input Text: ###
+### > Input Text: ###
  Enter the text you want to encrypt or decrypt in the text input area.
-### Select Encryption Method:
+### >  Select Encryption Method:
  Choose the encryption method from the dropdown menu.
-### Encryption & Decryption: 
+### > Encryption & Decryption: 
 Click the "Encrypt" and "Decrypt" button to process the text with the selected method.
-### View Results: 
+### > View Results: 
 The encrypted or decrypted text will be displayed along with any necessary keys or parameters.
 ## Technologies Used
 ### > Python: 
