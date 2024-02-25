@@ -37,5 +37,3 @@ def decrypt_caesar(ciphertext, shift):
             # Leave non-alphabetic characters unchanged
             decrypted_text += char
     return decrypted_text
-    
-print(decrypt_caesar('khoorrr',3))
