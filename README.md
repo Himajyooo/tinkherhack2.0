@@ -49,6 +49,8 @@ Version control
 https://www.loom.com/share/cea2e21cf465414c9cbcd15f2b9dba32?sid=0d458857-3c8d-45d9-9757-9ff6d42b0df6 
 
 ## Screenshot
-![App Screenshot]Initial.png
+
+![image](https://github.com/Sameera-18/tinkherhack2.0/assets/119126948/02df3c15-41d9-4617-a113-b64c1c03429f)
+
 
 
