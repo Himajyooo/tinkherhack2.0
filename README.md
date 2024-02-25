@@ -55,7 +55,22 @@ https://www.loom.com/share/cea2e21cf465414c9cbcd15f2b9dba32?sid=0d458857-3c8d-45
 2. AES Encryption
 ![image](https://github.com/Sameera-18/tinkherhack2.0/assets/119126948/9582029a-ee80-426b-b6b2-9cf39793eae9)
 
-3.
+3. AES Decryption
+
+4. Caesar Encrytion
+![image](https://github.com/Sameera-18/tinkherhack2.0/assets/119126948/e09eac59-95c2-4839-8590-58a908bc0236)
+
+5. Caesar Decrytion
+   ![image](https://github.com/Sameera-18/tinkherhack2.0/assets/119126948/406d868d-5b18-44b1-9edc-411416fb974b)
+
+6. Consvo Encryption
+   ![image](https://github.com/Sameera-18/tinkherhack2.0/assets/119126948/28b75262-2435-4191-8607-6155b29ae055)
+
+7. Consvo Decryption
+   ![image](https://github.com/Sameera-18/tinkherhack2.0/assets/119126948/4cdc2a69-6509-436d-b5e7-cfd27a9ec7ac)
+
+
+
 
 
 
