@@ -1,9 +1,3 @@
-MISSIONENCRYPT
-Team Member: Sameera T U 
-Seethal
-Nasrin
-Hima
-name: Ctrl Alt Del
 
 # MISSION_ENCRYPT
 
@@ -27,13 +21,13 @@ It is a variant of caeser cipher method where both consonents and vowels are sep
 The application provides clear outputs for encrypted and decrypted text, making it easy for users to understand the results.
 
 ## How to Use
-### Input Text: ###
+### > Input Text: ###
  Enter the text you want to encrypt or decrypt in the text input area.
-### Select Encryption Method:
+### >  Select Encryption Method:
  Choose the encryption method from the dropdown menu.
-### Encryption & Decryption: 
+### > Encryption & Decryption: 
 Click the "Encrypt" and "Decrypt" button to process the text with the selected method.
-### View Results: 
+### > View Results: 
 The encrypted or decrypted text will be displayed along with any necessary keys or parameters.
 ## Technologies Used
 ### > Python: 
@@ -49,6 +43,29 @@ Version control
 https://www.loom.com/share/cea2e21cf465414c9cbcd15f2b9dba32?sid=0d458857-3c8d-45d9-9757-9ff6d42b0df6 
 
 ## Screenshot
-![App Screenshot]Initial.png
+### 1.Initially
+   ![image](https://github.com/Sameera-18/tinkherhack2.0/assets/119126948/02df3c15-41d9-4617-a113-b64c1c03429f)
+
+### 2. AES Encryption
+   ![image](https://github.com/Sameera-18/tinkherhack2.0/assets/119126948/9582029a-ee80-426b-b6b2-9cf39793eae9)
+
+### 3. AES Decryption
+   ![image](https://github.com/Sameera-18/tinkherhack2.0/assets/119126948/3f4d67a2-b97c-47df-bcfc-0848317b5ea2)
+
+### 4. Caesar Encryption
+  ![image](https://github.com/Sameera-18/tinkherhack2.0/assets/119126948/e09eac59-95c2-4839-8590-58a908bc0236)
+
+### 5. Caesar Decryption
+  ![image](https://github.com/Sameera-18/tinkherhack2.0/assets/119126948/406d868d-5b18-44b1-9edc-411416fb974b)
+
+### 6. ConsVow Encryption
+   ![image](https://github.com/Sameera-18/tinkherhack2.0/assets/119126948/28b75262-2435-4191-8607-6155b29ae055)
+
+### 7. ConsVow Decryption
+   ![image](https://github.com/Sameera-18/tinkherhack2.0/assets/119126948/4cdc2a69-6509-436d-b5e7-cfd27a9ec7ac)
+
+
+
+
 
 
