@@ -63,10 +63,10 @@ https://www.loom.com/share/cea2e21cf465414c9cbcd15f2b9dba32?sid=0d458857-3c8d-45
 ### 5. Caesar Decryption
   ![image](https://github.com/Sameera-18/tinkherhack2.0/assets/119126948/406d868d-5b18-44b1-9edc-411416fb974b)
 
-### 6. Consvo Encryption
+### 6. ConsVow Encryption
    ![image](https://github.com/Sameera-18/tinkherhack2.0/assets/119126948/28b75262-2435-4191-8607-6155b29ae055)
 
-### 7. Consvo Decryption
+### 7. ConsVow Decryption
    ![image](https://github.com/Sameera-18/tinkherhack2.0/assets/119126948/4cdc2a69-6509-436d-b5e7-cfd27a9ec7ac)
 
 
