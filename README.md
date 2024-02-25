@@ -5,18 +5,17 @@ This project is a simple, user-friendly application developed using Python and S
 
 ## Features
 ### 1.User-friendly Interface:
- 
+The application provides an intuitive interface for users to input text and select encryption methods.
 ### 2.Encryption Methods:
- Users can choose from a variety of encryption methods including:
+Users can choose from a variety of encryption methods including:
 #### (i) AES (Advanced Encryption Standard): 
 A symmetric encryption algorithm widely used for securing sensitive data.
 #### (ii) Caesar Cipher: 
 A substitution cipher where each letter in the plaintext is shifted by a certain number of places.
 #### (iii) ConsVow 
-
 It is a variant of caeser cipher method where both consonents and vowels are separately encrypted / decrypted and combined together to form the required text 
 ### 3.Encryption and Decryption:
- Users can encrypt and decrypt text messages with the selected encryption method.
+Users can encrypt and decrypt text messages with the selected encryption method.
 ### 4. Clear Output: 
 The application provides clear outputs for encrypted and decrypted text, making it easy for users to understand the results.
 
