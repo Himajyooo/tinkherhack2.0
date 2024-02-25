@@ -50,10 +50,9 @@ def main():
             iv = get_iv()
             # Call AES encryption function
             if st.button("Decrypt"):
-                decrypted_text= decrypt_aes(text_input2.encode(),key, iv)
+                decrypted_text= decrypt_aes(text_input2,key, iv)
                 st.success("Text Decrypted Successfully!")
-                # st.write("Encrypted Text: <b>{}</b>".format(encrypted_text), unsafe_allow_html=True)
-                st.write("Decrypted Text :",decrypted_text.decode())
+                st.write("Decrypted Text :",decrypted_text)
                 
         elif decryption_method == "Caesar":
             # Call Caesar encryption function
