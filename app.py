@@ -26,7 +26,6 @@ def main():
                 # st.write("Encrypted Text: <b>{}</b>".format(encrypted_text), unsafe_allow_html=True)
                 st.write("Encrypted Text :",encrypted_text.hex())
                 st.write("Encryption Key:", iv.hex())
-                
         elif encryption_method == "Caesar":
             # Call Caesar encryption function
             shift = st.number_input("Enter the key:",step=1)
@@ -74,8 +73,8 @@ def main():
 
         elif decryption_method == "Consvow":
             # Call Caesar encryption function
-            shift1 = st.number_input("Enter the vowel shift:",step=1)
-            shift2 = st.number_input("Enter the consonant shift:",step=1)
+            shift1 = st.number_input("Enter the vowel shift.:",step=1)
+            shift2 = st.number_input("Enter the consonant shift.:",step=1)
             if st.button("Decrypt"):
                 decrypted_text = consvow_decrypt(text_input2, shift1,shift2)
                 st.success("Text Decrypted Successfully!")
